@@ -1,6 +1,6 @@
 package br.com.bytebank.banco.modelo;
 
-public class ContaPoupanca extends Conta {
+public class ContaPoupanca extends Contas {
 
     public ContaPoupanca(int agencia, int numero) {
         super(agencia, numero);
