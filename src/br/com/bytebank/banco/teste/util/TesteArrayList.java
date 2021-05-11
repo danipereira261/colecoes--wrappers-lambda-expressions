@@ -43,5 +43,10 @@ public class TesteArrayList {
         for (Contas contas : lista) {
             System.out.println(contas);
         }
+
+        // foreach Java 8
+        lista.forEach(c -> System.out.println(c));
+
+
     }
 }

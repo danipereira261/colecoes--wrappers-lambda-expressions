@@ -1,5 +1,7 @@
 package br.com.bytebank.banco.modelo;
 
+import java.util.Comparator;
+
 public abstract class Contas extends java.lang.Object {
 
     protected double saldo;
@@ -102,4 +104,6 @@ public abstract class Contas extends java.lang.Object {
     public String toString() {
         return "Numero: " + this.numero + ", Agencia: " + this.agencia;
     }
+
+
 }
